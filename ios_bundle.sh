@@ -18,12 +18,17 @@ else
 workspacePath=$WORKSPACE
 fi
 
+echo "--workspacePath-------$workspacePath"
+
 info_path="$workspacePath/PersonalAnswer/Info.plist"
 
 build_version=$(/usr/libexec/PlistBuddy -c "Print CFBundleShortVersionString" ${info_path})
 
+echo "--build_version----------------$build_version"
+
 bundleName=$(/usr/libexec/PlistBuddy -c "Print CFBundleName" ${info_path})
 
+echo "--bundleName------------------$bundleName"
 
 #文档路径，用来记录命令的输出
 
@@ -119,6 +124,9 @@ build
 function buildWithJenkins()
 {
 configuration=$CONFIGURATION
+
+echo "==configuration========================$configuration"
+
 build
 }
 
