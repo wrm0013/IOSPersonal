@@ -1,0 +1,715 @@
+BCSymbolMap Version: 2.0
+-[WRMDBHellper(Update) updateItem:]
+_OBJC_CLASS_$_WRMDBHellper
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/FMDB/WRMDBHellper+Update.m
+/Users/ruisi/IOSProject/PersonalAnswer
+-[WRMAnswerViewController viewDidLoad]
+-[WRMAnswerViewController initWithNibName:bundle:]
+_OBJC_CLASS_$_WRMAnswerViewController
+_OBJC_METACLASS_$_WRMAnswerViewController
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/ViewController/WRMAnswerViewController.m
++[WRMDBHellper sharedDBHelper]
+-[WRMDBHellper init]
+-[WRMDBHellper initPrivate]
+-[WRMDBHellper getDb]
+-[WRMDBHellper selectUser:]
+-[WRMDBHellper selectUserWhithUserName:andPwd:]
+-[WRMDBHellper userIsExist:]
+-[WRMDBHellper isExist:]
+-[WRMDBHellper insertUser:withPassword:]
+-[WRMDBHellper selectUserID:]
+-[WRMDBHellper questionIsExist:]
+-[WRMDBHellper insertQuestion:]
+-[WRMDBHellper selectAllFromQuestion]
+_sharedDBHelper.helper
+_OBJC_CLASS_$_FMDatabase
+__db
+_OBJC_CLASS_$_UserModel
+_OBJC_CLASS_$_WRMQuestionItem
+_OBJC_METACLASS_$_WRMDBHellper
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/FMDB/WRMDBHellper.m
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[AppDelegate applicationWillResignActive:]
+-[AppDelegate applicationDidEnterBackground:]
+-[AppDelegate applicationWillEnterForeground:]
+-[AppDelegate applicationDidBecomeActive:]
+-[AppDelegate applicationWillTerminate:]
+-[AppDelegate persistentContainer]
+___34-[AppDelegate persistentContainer]_block_invoke
+-[AppDelegate saveContext]
+-[AppDelegate window]
+-[AppDelegate setWindow:]
+-[AppDelegate .cxx_destruct]
+_OBJC_CLASS_$_WRMRootViewController
+_OBJC_IVAR_$_AppDelegate._persistentContainer
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_AppDelegate._window
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+_OBJC_METACLASS_$_AppDelegate
+_OBJC_CLASS_$_AppDelegate
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/AppDelegate/AppDelegate.m
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/AppDelegate/AppDelegate.h
+__34-[AppDelegate persistentContainer]_block_invoke
++[WRMQuestionItem initWithQuestion:andAnswer:andLanguage:]
+-[WRMQuestionItem userID]
+-[WRMQuestionItem setUserID:]
+-[WRMQuestionItem questionID]
+-[WRMQuestionItem setQuestionID:]
+-[WRMQuestionItem questionName]
+-[WRMQuestionItem setQuestionName:]
+-[WRMQuestionItem answer]
+-[WRMQuestionItem setAnswer:]
+-[WRMQuestionItem language]
+-[WRMQuestionItem setLanguage:]
+-[WRMQuestionItem createTime]
+-[WRMQuestionItem setCreateTime:]
+-[WRMQuestionItem updateTime]
+-[WRMQuestionItem setUpdateTime:]
+-[WRMQuestionItem .cxx_destruct]
+_OBJC_IVAR_$_WRMQuestionItem._userID
+_OBJC_IVAR_$_WRMQuestionItem._questionID
+_OBJC_IVAR_$_WRMQuestionItem._questionName
+_OBJC_IVAR_$_WRMQuestionItem._answer
+_OBJC_IVAR_$_WRMQuestionItem._language
+_OBJC_IVAR_$_WRMQuestionItem._createTime
+_OBJC_IVAR_$_WRMQuestionItem._updateTime
+_OBJC_METACLASS_$_WRMQuestionItem
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/Model/WRMQuestionItem.m
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/Model/WRMQuestionItem.h
+-[WRMPersionalViewController viewDidLoad]
+-[WRMPersionalViewController initWithNibName:bundle:]
+-[WRMPersionalViewController choiceSex:]
+-[WRMPersionalViewController choiceBirth:]
+-[WRMPersionalViewController choiceEduction:]
+-[WRMPersionalViewController sexField]
+-[WRMPersionalViewController setSexField:]
+-[WRMPersionalViewController userNameField]
+-[WRMPersionalViewController setUserNameField:]
+-[WRMPersionalViewController birthField]
+-[WRMPersionalViewController setBirthField:]
+-[WRMPersionalViewController eduction]
+-[WRMPersionalViewController setEduction:]
+-[WRMPersionalViewController user]
+-[WRMPersionalViewController setUser:]
+-[WRMPersionalViewController .cxx_destruct]
+_OBJC_CLASS_$_WRMPersionalViewController
+_OBJC_IVAR_$_WRMPersionalViewController._sexField
+_OBJC_IVAR_$_WRMPersionalViewController._userNameField
+_OBJC_IVAR_$_WRMPersionalViewController._birthField
+_OBJC_IVAR_$_WRMPersionalViewController._eduction
+_OBJC_IVAR_$_WRMPersionalViewController._user
+_OBJC_METACLASS_$_WRMPersionalViewController
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/ViewController/WRMPersionalViewController.m
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/ViewController/WRMPersionalViewController.h
+-[WRMDBHellper(Delete) deleteItem:]
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/FMDB/WRMDBHellper+Delete.m
+-[WRMRegisterViewController viewDidLoad]
+-[WRMRegisterViewController signIn:]
+-[WRMRegisterViewController registerUser]
+-[WRMRegisterViewController showAlert:isSucess:]
+___48-[WRMRegisterViewController showAlert:isSucess:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[WRMRegisterViewController userNameField]
+-[WRMRegisterViewController setUserNameField:]
+-[WRMRegisterViewController passwordField]
+-[WRMRegisterViewController setPasswordField:]
+-[WRMRegisterViewController signBtn]
+-[WRMRegisterViewController setSignBtn:]
+-[WRMRegisterViewController .cxx_destruct]
+_OBJC_CLASS_$_WRMRegisterViewController
+_OBJC_IVAR_$_WRMRegisterViewController._passwordField
+_OBJC_IVAR_$_WRMRegisterViewController._userNameField
+_OBJC_IVAR_$_WRMRegisterViewController._signBtn
+_OBJC_METACLASS_$_WRMRegisterViewController
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/ViewController/WRMRegisterViewController.m
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/ViewController/WRMRegisterViewController.h
+__destroy_helper_block_
+__copy_helper_block_
+__48-[WRMRegisterViewController showAlert:isSucess:]_block_invoke
+-[WRMDetailViewController viewDidLoad]
+-[WRMDetailViewController comitItem:]
+-[WRMDetailViewController questionField]
+-[WRMDetailViewController setQuestionField:]
+-[WRMDetailViewController answerFiled]
+-[WRMDetailViewController setAnswerFiled:]
+-[WRMDetailViewController editItem]
+-[WRMDetailViewController setEditItem:]
+-[WRMDetailViewController item]
+-[WRMDetailViewController setItem:]
+-[WRMDetailViewController comitBtn]
+-[WRMDetailViewController setComitBtn:]
+-[WRMDetailViewController .cxx_destruct]
+_OBJC_CLASS_$_WRMDetailViewController
+_OBJC_IVAR_$_WRMDetailViewController._comitBtn
+_OBJC_IVAR_$_WRMDetailViewController._questionField
+_OBJC_IVAR_$_WRMDetailViewController._answerFiled
+_OBJC_IVAR_$_WRMDetailViewController._editItem
+_OBJC_IVAR_$_WRMDetailViewController._item
+_OBJC_METACLASS_$_WRMDetailViewController
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/ViewController/WRMDetailViewController.m
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/ViewController/WRMDetailViewController.h
+-[WRMAddQuestionViewController viewDidLoad]
+-[WRMAddQuestionViewController add:]
+-[WRMAddQuestionViewController selectLanguage:]
+___47-[WRMAddQuestionViewController selectLanguage:]_block_invoke
+___47-[WRMAddQuestionViewController selectLanguage:]_block_invoke.47
+___copy_helper_block_.48
+___destroy_helper_block_.49
+___47-[WRMAddQuestionViewController selectLanguage:]_block_invoke.53
+___copy_helper_block_.54
+___destroy_helper_block_.55
+___47-[WRMAddQuestionViewController selectLanguage:]_block_invoke.59
+___copy_helper_block_.60
+___destroy_helper_block_.61
+-[WRMAddQuestionViewController addNewItem]
+-[WRMAddQuestionViewController setAddNewItem:]
+-[WRMAddQuestionViewController questionField]
+-[WRMAddQuestionViewController setQuestionField:]
+-[WRMAddQuestionViewController answerField]
+-[WRMAddQuestionViewController setAnswerField:]
+-[WRMAddQuestionViewController languageBtn]
+-[WRMAddQuestionViewController setLanguageBtn:]
+-[WRMAddQuestionViewController addBtn]
+-[WRMAddQuestionViewController setAddBtn:]
+-[WRMAddQuestionViewController .cxx_destruct]
+_OBJC_CLASS_$_WRMAddQuestionViewController
+_OBJC_IVAR_$_WRMAddQuestionViewController._addBtn
+_OBJC_CLASS_$_WRMItemStore
+___block_descriptor_tmp.50
+___block_descriptor_tmp.56
+___block_descriptor_tmp.62
+_OBJC_IVAR_$_WRMAddQuestionViewController._addNewItem
+_OBJC_IVAR_$_WRMAddQuestionViewController._questionField
+_OBJC_IVAR_$_WRMAddQuestionViewController._answerField
+_OBJC_IVAR_$_WRMAddQuestionViewController._languageBtn
+_OBJC_METACLASS_$_WRMAddQuestionViewController
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/ViewController/WRMAddQuestionViewController.m
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/ViewController/WRMAddQuestionViewController.h
+__47-[WRMAddQuestionViewController selectLanguage:]_block_invoke.59
+__47-[WRMAddQuestionViewController selectLanguage:]_block_invoke.53
+__47-[WRMAddQuestionViewController selectLanguage:]_block_invoke.47
+__47-[WRMAddQuestionViewController selectLanguage:]_block_invoke
+-[WRMQuestionTableViewController viewDidLoad]
+-[WRMQuestionTableViewController init]
+-[WRMQuestionTableViewController initWithStyle:]
+-[WRMQuestionTableViewController addItem:]
+___42-[WRMQuestionTableViewController addItem:]_block_invoke
+___42-[WRMQuestionTableViewController addItem:]_block_invoke.66
+-[WRMQuestionTableViewController viewWillAppear:]
+-[WRMQuestionTableViewController tableView:numberOfRowsInSection:]
+-[WRMQuestionTableViewController tableView:cellForRowAtIndexPath:]
+-[WRMQuestionTableViewController tableView:didSelectRowAtIndexPath:]
+___68-[WRMQuestionTableViewController tableView:didSelectRowAtIndexPath:]_block_invoke
+___copy_helper_block_.91
+___destroy_helper_block_.92
+-[WRMQuestionTableViewController tableView:commitEditingStyle:forRowAtIndexPath:]
+-[WRMQuestionTableViewController items]
+-[WRMQuestionTableViewController setItems:]
+-[WRMQuestionTableViewController .cxx_destruct]
+_OBJC_CLASS_$_WRMQuestionTableViewController
+_OBJC_IVAR_$_WRMQuestionTableViewController._items
+_OBJC_CLASS_$_WRMLoginViewController
+___block_descriptor_tmp.68
+___block_descriptor_tmp.94
+l_OBJC_PROTOCOL_$_UITableViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+_OBJC_METACLASS_$_WRMQuestionTableViewController
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/ViewController/WRMQuestionTableViewController.m
+__68-[WRMQuestionTableViewController tableView:didSelectRowAtIndexPath:]_block_invoke
+__42-[WRMQuestionTableViewController addItem:]_block_invoke.66
+__42-[WRMQuestionTableViewController addItem:]_block_invoke
++[WRMItemStore sharedStore]
+-[WRMItemStore initPrivate]
+-[WRMItemStore init]
+-[WRMItemStore insertQuestion:answer:language:]
+-[WRMItemStore allItems]
+-[WRMItemStore updateQuestion:]
+-[WRMItemStore deleteItem:]
+_sharedStore.store
+_OBJC_METACLASS_$_WRMItemStore
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/Model/WRMItemStore.m
+-[WRMLoginViewController viewDidLoad]
+-[WRMLoginViewController viewWillAppear:]
+-[WRMLoginViewController viewWillDisappear:]
+-[WRMLoginViewController setButtonNormal]
+-[WRMLoginViewController setButtonEditable]
+-[WRMLoginViewController textValueChanged]
+-[WRMLoginViewController lgoin:]
+-[WRMLoginViewController signIn:]
+-[WRMLoginViewController showAlert:]
+___36-[WRMLoginViewController showAlert:]_block_invoke
+-[WRMLoginViewController returnLoginResult]
+-[WRMLoginViewController setReturnLoginResult:]
+-[WRMLoginViewController login]
+-[WRMLoginViewController setLogin:]
+-[WRMLoginViewController signin]
+-[WRMLoginViewController setSignin:]
+-[WRMLoginViewController userNameField]
+-[WRMLoginViewController setUserNameField:]
+-[WRMLoginViewController passwordField]
+-[WRMLoginViewController setPasswordField:]
+-[WRMLoginViewController .cxx_destruct]
+_OBJC_IVAR_$_WRMLoginViewController._login
+_OBJC_IVAR_$_WRMLoginViewController._signin
+_OBJC_IVAR_$_WRMLoginViewController._passwordField
+_OBJC_IVAR_$_WRMLoginViewController._returnLoginResult
+_OBJC_IVAR_$_WRMLoginViewController._userNameField
+_OBJC_METACLASS_$_WRMLoginViewController
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/ViewController/WRMLoginViewController.m
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/ViewController/WRMLoginViewController.h
+__36-[WRMLoginViewController showAlert:]_block_invoke
+-[WRMRootViewController viewDidLoad]
+-[WRMRootViewController tabBarController:shouldSelectViewController:]
+___69-[WRMRootViewController tabBarController:shouldSelectViewController:]_block_invoke
+___69-[WRMRootViewController tabBarController:shouldSelectViewController:]_block_invoke_2
+___69-[WRMRootViewController tabBarController:shouldSelectViewController:]_block_invoke.66
+-[WRMRootViewController isToLogin]
+-[WRMRootViewController setIsToLogin:]
+___block_descriptor_tmp.61
+___block_descriptor_tmp.67
+___block_literal_global.68
+_OBJC_IVAR_$_WRMRootViewController._isToLogin
+l_OBJC_PROTOCOL_$_UITabBarControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITabBarControllerDelegate
+_OBJC_METACLASS_$_WRMRootViewController
+_selectedIndex
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/ViewController/WRMRootViewController.m
+__69-[WRMRootViewController tabBarController:shouldSelectViewController:]_block_invoke.66
+__69-[WRMRootViewController tabBarController:shouldSelectViewController:]_block_invoke_2
+__69-[WRMRootViewController tabBarController:shouldSelectViewController:]_block_invoke
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/main.m
+main
+-[UserModel initWithName:]
+-[UserModel getTimestamp:]
+-[UserModel userName]
+-[UserModel setUserName:]
+-[UserModel token]
+-[UserModel setToken:]
+-[UserModel userID]
+-[UserModel setUserID:]
+-[UserModel createDate]
+-[UserModel sex]
+-[UserModel setSex:]
+-[UserModel age]
+-[UserModel setAge:]
+-[UserModel education]
+-[UserModel setEducation:]
+-[UserModel dateOfBirth]
+-[UserModel setDateOfBirth:]
+-[UserModel .cxx_destruct]
+_OBJC_IVAR_$_UserModel._userName
+_OBJC_IVAR_$_UserModel._token
+_OBJC_IVAR_$_UserModel._userID
+_OBJC_IVAR_$_UserModel._createDate
+_OBJC_IVAR_$_UserModel._sex
+_OBJC_IVAR_$_UserModel._age
+_OBJC_IVAR_$_UserModel._education
+_OBJC_IVAR_$_UserModel._dateOfBirth
+_OBJC_METACLASS_$_UserModel
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/Model/UserModel.m
+/Users/ruisi/IOSProject/PersonalAnswer/PersonalAnswer/Model/UserModel.h
++[FMDatabase databaseWithPath:]
++[FMDatabase databaseWithURL:]
+-[FMDatabase init]
+-[FMDatabase initWithURL:]
+-[FMDatabase initWithPath:]
+-[FMDatabase dealloc]
+-[FMDatabase databaseURL]
++[FMDatabase FMDBUserVersion]
++[FMDatabase FMDBVersion]
+___25+[FMDatabase FMDBVersion]_block_invoke
++[FMDatabase sqliteLibVersion]
++[FMDatabase isSQLiteThreadSafe]
+-[FMDatabase sqliteHandle]
+-[FMDatabase sqlitePath]
+-[FMDatabase open]
+-[FMDatabase openWithFlags:]
+-[FMDatabase openWithFlags:vfs:]
+-[FMDatabase close]
+-[FMDatabase setMaxBusyRetryTimeInterval:]
+_FMDBDatabaseBusyHandler
+-[FMDatabase maxBusyRetryTimeInterval]
+-[FMDatabase busyRetryTimeout]
+-[FMDatabase setBusyRetryTimeout:]
+-[FMDatabase hasOpenResultSets]
+-[FMDatabase closeOpenResultSets]
+-[FMDatabase resultSetDidClose:]
+-[FMDatabase clearCachedStatements]
+-[FMDatabase cachedStatementForQuery:]
+___38-[FMDatabase cachedStatementForQuery:]_block_invoke
+-[FMDatabase setCachedStatement:forQuery:]
+-[FMDatabase rekey:]
+-[FMDatabase rekeyWithData:]
+-[FMDatabase setKey:]
+-[FMDatabase setKeyWithData:]
++[FMDatabase storeableDateFormat:]
+-[FMDatabase hasDateFormatter]
+-[FMDatabase setDateFormat:]
+-[FMDatabase dateFromString:]
+-[FMDatabase stringFromDate:]
+-[FMDatabase goodConnection]
+-[FMDatabase warnInUse]
+-[FMDatabase databaseExists]
+-[FMDatabase lastErrorMessage]
+-[FMDatabase hadError]
+-[FMDatabase lastErrorCode]
+-[FMDatabase lastExtendedErrorCode]
+-[FMDatabase errorWithMessage:]
+-[FMDatabase lastError]
+-[FMDatabase lastInsertRowId]
+-[FMDatabase changes]
+-[FMDatabase bindObject:toColumn:inStatement:]
+-[FMDatabase extractSQL:argumentsList:intoString:arguments:]
+-[FMDatabase executeQuery:withParameterDictionary:]
+-[FMDatabase executeQuery:withArgumentsInArray:orDictionary:orVAList:]
+-[FMDatabase executeQuery:]
+-[FMDatabase executeQueryWithFormat:]
+-[FMDatabase executeQuery:withArgumentsInArray:]
+-[FMDatabase executeQuery:values:error:]
+-[FMDatabase executeQuery:withVAList:]
+-[FMDatabase executeUpdate:error:withArgumentsInArray:orDictionary:orVAList:]
+-[FMDatabase executeUpdate:]
+-[FMDatabase executeUpdate:withArgumentsInArray:]
+-[FMDatabase executeUpdate:values:error:]
+-[FMDatabase executeUpdate:withParameterDictionary:]
+-[FMDatabase executeUpdate:withVAList:]
+-[FMDatabase executeUpdateWithFormat:]
+_FMDBExecuteBulkSQLCallback
+-[FMDatabase executeStatements:]
+-[FMDatabase executeStatements:withResultBlock:]
+-[FMDatabase executeUpdate:withErrorAndBindings:]
+-[FMDatabase update:withErrorAndBindings:]
+-[FMDatabase rollback]
+-[FMDatabase commit]
+-[FMDatabase beginTransaction]
+-[FMDatabase beginDeferredTransaction]
+-[FMDatabase beginImmediateTransaction]
+-[FMDatabase beginExclusiveTransaction]
+-[FMDatabase inTransaction]
+-[FMDatabase interrupt]
+-[FMDatabase startSavePointWithName:error:]
+-[FMDatabase releaseSavePointWithName:error:]
+-[FMDatabase rollbackToSavePointWithName:error:]
+-[FMDatabase inSavePoint:]
+-[FMDatabase checkpoint:error:]
+-[FMDatabase checkpoint:name:error:]
+-[FMDatabase checkpoint:name:logFrameCount:checkpointCount:error:]
+-[FMDatabase shouldCacheStatements]
+-[FMDatabase setShouldCacheStatements:]
+_FMDBBlockSQLiteCallBackFunction
+-[FMDatabase makeFunctionNamed:maximumArguments:withBlock:]
+-[FMDatabase makeFunctionNamed:arguments:block:]
+-[FMDatabase valueType:]
+-[FMDatabase valueInt:]
+-[FMDatabase valueLong:]
+-[FMDatabase valueDouble:]
+-[FMDatabase valueData:]
+-[FMDatabase valueString:]
+-[FMDatabase resultNullInContext:]
+-[FMDatabase resultInt:context:]
+-[FMDatabase resultLong:context:]
+-[FMDatabase resultDouble:context:]
+-[FMDatabase resultData:context:]
+-[FMDatabase resultString:context:]
+-[FMDatabase resultError:context:]
+-[FMDatabase resultErrorCode:context:]
+-[FMDatabase resultErrorNoMemoryInContext:]
+-[FMDatabase resultErrorTooBigInContext:]
+-[FMDatabase traceExecution]
+-[FMDatabase setTraceExecution:]
+-[FMDatabase checkedOut]
+-[FMDatabase setCheckedOut:]
+-[FMDatabase crashOnErrors]
+-[FMDatabase setCrashOnErrors:]
+-[FMDatabase logsErrors]
+-[FMDatabase setLogsErrors:]
+-[FMDatabase cachedStatements]
+-[FMDatabase setCachedStatements:]
+-[FMDatabase isOpen]
+-[FMDatabase setIsOpen:]
+-[FMDatabase isInTransaction]
+-[FMDatabase databasePath]
+-[FMDatabase .cxx_destruct]
+-[FMStatement dealloc]
+-[FMStatement close]
+-[FMStatement reset]
+-[FMStatement description]
+-[FMStatement useCount]
+-[FMStatement setUseCount:]
+-[FMStatement query]
+-[FMStatement setQuery:]
+-[FMStatement statement]
+-[FMStatement setStatement:]
+-[FMStatement inUse]
+-[FMStatement setInUse:]
+-[FMStatement .cxx_destruct]
+_OBJC_IVAR_$_FMDatabase._databasePath
+_OBJC_IVAR_$_FMDatabase._openResultSets
+_OBJC_IVAR_$_FMDatabase._db
+_OBJC_IVAR_$_FMDatabase._logsErrors
+_OBJC_IVAR_$_FMDatabase._crashOnErrors
+_OBJC_IVAR_$_FMDatabase._maxBusyRetryTimeInterval
+_OBJC_IVAR_$_FMDatabase._isOpen
+_FMDBVersion.once
+_FMDBVersion.FMDBVersionVal
+_OBJC_IVAR_$_FMDatabase._cachedStatements
+___block_descriptor_tmp.92
+_OBJC_IVAR_$_FMDatabase._dateFormat
+_OBJC_IVAR_$_FMDatabase._isExecutingStatement
+_OBJC_IVAR_$_FMDatabase._traceExecution
+_OBJC_IVAR_$_FMDatabase._shouldCacheStatements
+_OBJC_CLASS_$_FMStatement
+_OBJC_CLASS_$_FMResultSet
+_OBJC_IVAR_$_FMDatabase._isInTransaction
+_inSavePoint:.savePointIdx
+_OBJC_IVAR_$_FMDatabase._openFunctions
+_OBJC_IVAR_$_FMDatabase._checkedOut
+_OBJC_METACLASS_$_FMDatabase
+_OBJC_IVAR_$_FMDatabase._startBusyRetryTime
+_OBJC_IVAR_$_FMStatement._statement
+_OBJC_IVAR_$_FMStatement._inUse
+_OBJC_IVAR_$_FMStatement._useCount
+_OBJC_IVAR_$_FMStatement._query
+_OBJC_METACLASS_$_FMStatement
+/Users/ruisi/IOSProject/PersonalAnswer/Pods/FMDB/src/fmdb/FMDatabase.m
+/Users/ruisi/IOSProject/PersonalAnswer/Pods
+/Users/ruisi/IOSProject/PersonalAnswer/Pods/FMDB/src/fmdb/FMDatabase.h
+FMDBBlockSQLiteCallBackFunction
+FMDBEscapeSavePointName
+FMDBExecuteBulkSQLCallback
+__38-[FMDatabase cachedStatementForQuery:]_block_invoke
+FMDBDatabaseBusyHandler
+__25+[FMDatabase FMDBVersion]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
+-[FMDatabase(FMDatabaseAdditions) stringForQuery:]
+-[FMDatabase(FMDatabaseAdditions) intForQuery:]
+-[FMDatabase(FMDatabaseAdditions) longForQuery:]
+-[FMDatabase(FMDatabaseAdditions) boolForQuery:]
+-[FMDatabase(FMDatabaseAdditions) doubleForQuery:]
+-[FMDatabase(FMDatabaseAdditions) dataForQuery:]
+-[FMDatabase(FMDatabaseAdditions) dateForQuery:]
+-[FMDatabase(FMDatabaseAdditions) tableExists:]
+-[FMDatabase(FMDatabaseAdditions) getSchema]
+-[FMDatabase(FMDatabaseAdditions) getTableSchema:]
+-[FMDatabase(FMDatabaseAdditions) columnExists:inTableWithName:]
+-[FMDatabase(FMDatabaseAdditions) applicationID]
+-[FMDatabase(FMDatabaseAdditions) setApplicationID:]
+-[FMDatabase(FMDatabaseAdditions) userVersion]
+-[FMDatabase(FMDatabaseAdditions) setUserVersion:]
+-[FMDatabase(FMDatabaseAdditions) columnExists:columnName:]
+-[FMDatabase(FMDatabaseAdditions) validateSQL:error:]
+/Users/ruisi/IOSProject/PersonalAnswer/Pods/FMDB/src/fmdb/FMDatabaseAdditions.m
++[FMDatabasePool databasePoolWithPath:]
++[FMDatabasePool databasePoolWithURL:]
++[FMDatabasePool databasePoolWithPath:flags:]
++[FMDatabasePool databasePoolWithURL:flags:]
+-[FMDatabasePool initWithURL:flags:vfs:]
+-[FMDatabasePool initWithPath:flags:vfs:]
+-[FMDatabasePool initWithPath:flags:]
+-[FMDatabasePool initWithURL:flags:]
+-[FMDatabasePool initWithPath:]
+-[FMDatabasePool initWithURL:]
+-[FMDatabasePool init]
++[FMDatabasePool databaseClass]
+-[FMDatabasePool dealloc]
+-[FMDatabasePool executeLocked:]
+-[FMDatabasePool pushDatabaseBackInPool:]
+___41-[FMDatabasePool pushDatabaseBackInPool:]_block_invoke
+-[FMDatabasePool db]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___20-[FMDatabasePool db]_block_invoke
+___copy_helper_block_.67
+___destroy_helper_block_.68
+-[FMDatabasePool countOfCheckedInDatabases]
+___43-[FMDatabasePool countOfCheckedInDatabases]_block_invoke
+___copy_helper_block_.70
+___destroy_helper_block_.71
+-[FMDatabasePool countOfCheckedOutDatabases]
+___44-[FMDatabasePool countOfCheckedOutDatabases]_block_invoke
+___copy_helper_block_.73
+___destroy_helper_block_.74
+-[FMDatabasePool countOfOpenDatabases]
+___38-[FMDatabasePool countOfOpenDatabases]_block_invoke
+___copy_helper_block_.76
+___destroy_helper_block_.77
+-[FMDatabasePool releaseAllDatabases]
+___37-[FMDatabasePool releaseAllDatabases]_block_invoke
+___copy_helper_block_.81
+___destroy_helper_block_.82
+-[FMDatabasePool inDatabase:]
+-[FMDatabasePool beginTransaction:withBlock:]
+-[FMDatabasePool inTransaction:]
+-[FMDatabasePool inDeferredTransaction:]
+-[FMDatabasePool inExclusiveTransaction:]
+-[FMDatabasePool inImmediateTransaction:]
+-[FMDatabasePool inSavePoint:]
+-[FMDatabasePool path]
+-[FMDatabasePool setPath:]
+-[FMDatabasePool delegate]
+-[FMDatabasePool setDelegate:]
+-[FMDatabasePool maximumNumberOfDatabasesToCreate]
+-[FMDatabasePool setMaximumNumberOfDatabasesToCreate:]
+-[FMDatabasePool openFlags]
+-[FMDatabasePool vfsName]
+-[FMDatabasePool setVfsName:]
+-[FMDatabasePool .cxx_destruct]
+_OBJC_CLASS_$_FMDatabasePool
+_OBJC_IVAR_$_FMDatabasePool._path
+_OBJC_IVAR_$_FMDatabasePool._lockQueue
+_OBJC_IVAR_$_FMDatabasePool._databaseInPool
+_OBJC_IVAR_$_FMDatabasePool._databaseOutPool
+_OBJC_IVAR_$_FMDatabasePool._openFlags
+_OBJC_IVAR_$_FMDatabasePool._vfsName
+_OBJC_IVAR_$_FMDatabasePool._delegate
+_OBJC_IVAR_$_FMDatabasePool._maximumNumberOfDatabasesToCreate
+___block_descriptor_tmp.69
+___block_descriptor_tmp.72
+___block_descriptor_tmp.75
+___block_descriptor_tmp.78
+___block_descriptor_tmp.83
+_OBJC_METACLASS_$_FMDatabasePool
+/Users/ruisi/IOSProject/PersonalAnswer/Pods/FMDB/src/fmdb/FMDatabasePool.m
+/Users/ruisi/IOSProject/PersonalAnswer/Pods/FMDB/src/fmdb/FMDatabasePool.h
+__37-[FMDatabasePool releaseAllDatabases]_block_invoke
+__38-[FMDatabasePool countOfOpenDatabases]_block_invoke
+__44-[FMDatabasePool countOfCheckedOutDatabases]_block_invoke
+__43-[FMDatabasePool countOfCheckedInDatabases]_block_invoke
+__20-[FMDatabasePool db]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__41-[FMDatabasePool pushDatabaseBackInPool:]_block_invoke
++[FMDatabaseQueue databaseQueueWithPath:]
++[FMDatabaseQueue databaseQueueWithURL:]
++[FMDatabaseQueue databaseQueueWithPath:flags:]
++[FMDatabaseQueue databaseQueueWithURL:flags:]
++[FMDatabaseQueue databaseClass]
+-[FMDatabaseQueue initWithURL:flags:vfs:]
+-[FMDatabaseQueue initWithPath:flags:vfs:]
+-[FMDatabaseQueue initWithPath:flags:]
+-[FMDatabaseQueue initWithURL:flags:]
+-[FMDatabaseQueue initWithURL:]
+-[FMDatabaseQueue initWithPath:]
+-[FMDatabaseQueue init]
+-[FMDatabaseQueue dealloc]
+-[FMDatabaseQueue close]
+___24-[FMDatabaseQueue close]_block_invoke
+-[FMDatabaseQueue interrupt]
+-[FMDatabaseQueue database]
+-[FMDatabaseQueue inDatabase:]
+___30-[FMDatabaseQueue inDatabase:]_block_invoke
+___copy_helper_block_.52
+___destroy_helper_block_.53
+-[FMDatabaseQueue beginTransaction:withBlock:]
+___46-[FMDatabaseQueue beginTransaction:withBlock:]_block_invoke
+___copy_helper_block_.65
+___destroy_helper_block_.66
+-[FMDatabaseQueue inTransaction:]
+-[FMDatabaseQueue inDeferredTransaction:]
+-[FMDatabaseQueue inExclusiveTransaction:]
+-[FMDatabaseQueue inImmediateTransaction:]
+-[FMDatabaseQueue inSavePoint:]
+___31-[FMDatabaseQueue inSavePoint:]_block_invoke
+___copy_helper_block_.78
+___destroy_helper_block_.79
+-[FMDatabaseQueue checkpoint:error:]
+-[FMDatabaseQueue checkpoint:name:error:]
+-[FMDatabaseQueue checkpoint:name:logFrameCount:checkpointCount:error:]
+___71-[FMDatabaseQueue checkpoint:name:logFrameCount:checkpointCount:error:]_block_invoke
+___copy_helper_block_.83
+___destroy_helper_block_.84
+-[FMDatabaseQueue path]
+-[FMDatabaseQueue setPath:]
+-[FMDatabaseQueue openFlags]
+-[FMDatabaseQueue vfsName]
+-[FMDatabaseQueue setVfsName:]
+-[FMDatabaseQueue .cxx_destruct]
+_OBJC_CLASS_$_FMDatabaseQueue
+_OBJC_IVAR_$_FMDatabaseQueue._db
+_OBJC_IVAR_$_FMDatabaseQueue._path
+_OBJC_IVAR_$_FMDatabaseQueue._queue
+_kDispatchQueueSpecificKey
+_OBJC_IVAR_$_FMDatabaseQueue._openFlags
+_OBJC_IVAR_$_FMDatabaseQueue._vfsName
+___block_descriptor_tmp.54
+___block_descriptor_tmp.80
+___block_descriptor_tmp.85
+_OBJC_METACLASS_$_FMDatabaseQueue
+/Users/ruisi/IOSProject/PersonalAnswer/Pods/FMDB/src/fmdb/FMDatabaseQueue.m
+/Users/ruisi/IOSProject/PersonalAnswer/Pods/FMDB/src/fmdb/FMDatabaseQueue.h
+__71-[FMDatabaseQueue checkpoint:name:logFrameCount:checkpointCount:error:]_block_invoke
+__31-[FMDatabaseQueue inSavePoint:]_block_invoke
+__46-[FMDatabaseQueue beginTransaction:withBlock:]_block_invoke
+__30-[FMDatabaseQueue inDatabase:]_block_invoke
+__24-[FMDatabaseQueue close]_block_invoke
+_OBJC_METACLASS_$_PodsDummy_FMDB
+_OBJC_CLASS_$_PodsDummy_FMDB
+/Users/ruisi/IOSProject/PersonalAnswer/Pods/Target Support Files/FMDB/FMDB-dummy.m
++[FMResultSet resultSetWithStatement:usingParentDatabase:]
+-[FMResultSet dealloc]
+-[FMResultSet close]
+-[FMResultSet columnCount]
+-[FMResultSet columnNameToIndexMap]
+-[FMResultSet kvcMagic:]
+-[FMResultSet resultDict]
+-[FMResultSet resultDictionary]
+-[FMResultSet next]
+-[FMResultSet nextWithError:]
+-[FMResultSet hasAnotherRow]
+-[FMResultSet columnIndexForName:]
+-[FMResultSet intForColumn:]
+-[FMResultSet intForColumnIndex:]
+-[FMResultSet longForColumn:]
+-[FMResultSet longForColumnIndex:]
+-[FMResultSet longLongIntForColumn:]
+-[FMResultSet longLongIntForColumnIndex:]
+-[FMResultSet unsignedLongLongIntForColumn:]
+-[FMResultSet unsignedLongLongIntForColumnIndex:]
+-[FMResultSet boolForColumn:]
+-[FMResultSet boolForColumnIndex:]
+-[FMResultSet doubleForColumn:]
+-[FMResultSet doubleForColumnIndex:]
+-[FMResultSet stringForColumnIndex:]
+-[FMResultSet stringForColumn:]
+-[FMResultSet dateForColumn:]
+-[FMResultSet dateForColumnIndex:]
+-[FMResultSet dataForColumn:]
+-[FMResultSet dataForColumnIndex:]
+-[FMResultSet dataNoCopyForColumn:]
+-[FMResultSet dataNoCopyForColumnIndex:]
+-[FMResultSet columnIndexIsNull:]
+-[FMResultSet columnIsNull:]
+-[FMResultSet UTF8StringForColumnIndex:]
+-[FMResultSet UTF8StringForColumn:]
+-[FMResultSet UTF8StringForColumnName:]
+-[FMResultSet objectForColumnIndex:]
+-[FMResultSet objectForColumnName:]
+-[FMResultSet objectForColumn:]
+-[FMResultSet columnNameForIndex:]
+-[FMResultSet objectAtIndexedSubscript:]
+-[FMResultSet objectForKeyedSubscript:]
+-[FMResultSet parentDB]
+-[FMResultSet setParentDB:]
+-[FMResultSet query]
+-[FMResultSet setQuery:]
+-[FMResultSet statement]
+-[FMResultSet setStatement:]
+-[FMResultSet .cxx_destruct]
+_OBJC_IVAR_$_FMResultSet._query
+_OBJC_IVAR_$_FMResultSet._columnNameToIndexMap
+_OBJC_IVAR_$_FMResultSet._statement
+_OBJC_IVAR_$_FMResultSet._parentDB
+_OBJC_METACLASS_$_FMResultSet
+/Users/ruisi/IOSProject/PersonalAnswer/Pods/FMDB/src/fmdb/FMResultSet.m
+/Users/ruisi/IOSProject/PersonalAnswer/Pods/FMDB/src/fmdb/FMResultSet.h
+_OBJC_METACLASS_$_PodsDummy_Pods_PersonalAnswer
+_OBJC_CLASS_$_PodsDummy_Pods_PersonalAnswer
+/Users/ruisi/IOSProject/PersonalAnswer/Pods/Target Support Files/Pods-PersonalAnswer/Pods-PersonalAnswer-dummy.m
